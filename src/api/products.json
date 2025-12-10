@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "category": "Headphones",
+    "productImage": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/main-img-2_600x.png?v=1616562632",
+    "productName": "Wireless Bluetooth Headphones",
+    "rating": 5,
+    "productDescription": "Noise-cancelling over-ear headphones with 40 hours battery life.",
+    "productPrice": 2499,
+    "productActualPrice": 3999,
+    "productStock": 35,
+    "quantity": 1
+  },
+  {
+    "id": 2,
+    "category": "Phone",
+    "productImage": "https://www.pngmart.com/files/24/iPhone-17-Pro-Max-PNG.png",
+    "productName": "Iphone 17 pro max",
+    "rating": 4,
+    "productDescription": "6.5-inch AMOLED, 128GB storage, 5000mAh powerful battery.",
+    "productPrice": 134999,
+    "productActualPrice": 170999,
+    "productStock": 20,
+    "quantity": 1
+  },
+  {
+    "id": 3,
+    "category": "Laptop",
+    "productImage": "https://purepng.com/public/uploads/large/purepng.com-macbookmacbooknotebookcomputersapple-inmacbook-familyapple-laptops-1701528360828pu4ti.png",
+    "productName": "Macbook",
+    "rating": 5,
+    "productDescription": "Intel i7, 16GB RAM, RTX 3050 GPU, 512GB SSD fast performance.",
+    "productPrice": 67999,
+    "productActualPrice": 79999,
+    "productStock": 10,
+    "quantity": 1
+  },
+  {
+    "id": 4,
+    "category": "Speaker",
+    "productImage": "https://5.imimg.com/data5/ECOM/Default/2023/9/342264531/YU/LJ/GY/194582600/mainimage-86d113ab-e793-4b6b-9de8-0b82d4f83a8e-500x500.png",
+    "productName": "Wireless Bluetooth Speaker",
+    "rating": 4,
+    "productDescription": "Portable speaker with heavy bass & 12 hours battery.",
+    "productPrice": 1999,
+    "productActualPrice": 2999,
+    "productStock": 55,
+    "quantity": 1
+  },
+  {
+    "id": 5,
+    "category": "Camera",
+    "productImage": "https://www.pngall.com/wp-content/uploads/12/DSLR-Camera-Equipment-PNG-Image.png",
+    "productName": "4K Action Camera",
+    "rating": 4,
+    "productDescription": "Waterproof 4K sports camera with ultra-wide lens.",
+    "productPrice": 14999,
+    "productActualPrice": 16999,
+    "productStock": 25,
+    "quantity": 1
+  },
+  {
+    "id": 6,
+    "category": "Smartwatch",
+    "productImage": "https://png.pngtree.com/png-clipart/20231002/original/pngtree-smart-watch-realistic-3d-png-image_13066610.png",
+    "productName": "Smartwatch Vibe 3",
+    "rating": 4,
+    "productDescription": "Smart fitness watch with HR monitor & notifications.",
+    "productPrice": 2999,
+    "productActualPrice": 3999,
+    "productStock": 45,
+    "quantity": 1
+  }
+]

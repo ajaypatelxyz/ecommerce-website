@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="./src/ps.png" />
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patel_Store</title>
+</head>
+
+<body>
+    <!-- All header content -->
+    <header class="section-navbar">
+        <section class="top_txt">
+            <div class="head container">
+                <div class="head_txt">
+                    <p>Free shipping, 30-day return or refund gurantee.</p>
+                </div>
+                <div class="sign_in_up">
+                    <a href="#">SIGN IN</a>
+                    <a href="#">SIGN UP</a>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="navbar_brand">
+                <a href="index.html" class="logo-link">
+                    <div class="brand-logo">
+                        <span class="logo-main">PATEL</span>
+                        <span class="logo-sub">STORE</span>
+                    </div>
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+                            <i class="fa-solid fa-cart-shopping"></i> 0
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="addToCartElement">
+        <div class="container">
+
+            <!-- LEFT SIDE: CART PRODUCTS -->
+            <section>
+                <div id="productCartContainer"></div>
+            </section>
+
+        </div>
+        <!-- RIGHT SIDE: SUMMARY BOX -->
+        <section class="productCartTotalElem">
+            <div class="productCartTotalElement">
+                <p>Selected Offer Summary</p>
+
+                <div class="productOrderTotal">
+                    <div>
+                        <p>Sub Total:</p>
+                        <p class="productSubTotal">0</p>
+                    </div>
+
+                    <div>
+                        <p>Tax:</p>
+                        <p class="productTax">₹50</p>
+                    </div>
+
+                    <div>
+                        <p>Final Total:</p>
+                        <p class="productFinalTotal">0</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- TEMPLATE FOR CART PRODUCTS -->
+    <template id="productCartTemplate">
+        <div class="cartRow" id="cardValue">
+            <article class="cartCard">
+
+                <span class="category"></span>
+
+                <div class="imageContainer">
+                    <img class="productImage" src="" alt="">
+                </div>
+
+                <h2 class="productName"></h2>
+
+                <p class="productPrice"></p>
+
+                <div class="stockElement">
+                    <button class="cartIncrement">+</button>
+                    <p class="productQuantity" data-quantity="1">1</p>
+                    <button class="cartDecrement">-</button>
+                </div>
+
+                <button class="remove-to-cart-button">Remove</button>
+
+            </article>
+        </div>
+    </template>
+
+
+    <!-- All footer content -->
+    <footer class="section-footer">
+        <div class="footer-container container">
+            <div class="content_1">
+                <a href="index.html" class="logo-link">
+                    <div class="brand-logo">
+                        <span class="logo-main">PATEL</span>
+                        <span class="logo-sub">STORE</span>
+                    </div>
+                </a>
+                <p>
+                    Welcome to Patel EcomStore, your ultimate destination for cutting-edge gadgets!
+                </p>
+                <img src="./src/credit_card.png" alt="cards">
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="#">Computer Store</a>
+                <a href="#">Laptop Store</a>
+                <a href="#">Accessories</a>
+                <a href="#">Sales & Discount</a>
+            </div>
+            <div class="content_3">
+                <h4>Experience</h4>
+                <a href="./contact.html">Contact Us</a>
+                <a href="" target="_blank">Payment Method</a>
+                <a href="" target="_blank">Delivery</a>
+                <a href="" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWSLETTER</h4>
+                <p>Be the first to know about new <br> arrivals, sales & promos!</p>
+                <div class="f-mail">
+                    <input type="mail" placeholder="Your Email">
+                    <i class="bx bx-envelope"></i>
+                </div>
+            </div>
+        </div>
+        <div class="f-design">
+            <div class="f-design-txt">
+                <p>Design and Code by Ajay Patel</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="showAddToCartCards.js"></script>
+</body>
+
+</html>

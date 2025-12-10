@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image" href="./src/ps.png" />
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patel_Store</title>
+</head>
+
+<body>
+  <header class="section-navbar">
+    <section class="top_txt">
+      <div class="head container">
+        <div class="head_txt">
+          <p>Free shipping, 30-day return or refund gurantee.</p>
+        </div>
+        <div class="sign_in_up">
+          <a href="#">SIGN IN</a>
+          <a href="#">SIGN UP</a>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="navbar_brand">
+        <a href="index.html" class="logo-link">
+          <div class="brand-logo">
+            <span class="logo-main">PATEL</span>
+            <span class="logo-sub">STORE</span>
+          </div>
+        </a>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="products.html" class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+              <i class="fa-solid fa-cart-shopping"></i> 0
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <section class="section-extra-product">
+    <div class="container grid grid-three--cols">
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get and extra 50% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./src/iPhone-17.png" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get and extra 50% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./src/headphone.webp" alt="">
+        </div>
+      </div>
+
+      <div class="div-extra grid grid-two--cols">
+        <div class="extra-text">
+          <p>new year sale</p>
+          <h3>get and extra 50% off</h3>
+          <a href="#">Show now</a>
+        </div>
+        <div class="extra-img extra-laptop">
+          <img src="./src/macbook.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- policy section  -->
+  <section class="section-policy">
+    <div class="container grid grid-four--cols">
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-solid fa-truck-fast"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>worldwide shipping</p>
+          <p>order above $100</p>
+        </div>
+      </div>
+
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-solid fa-rotate"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>Easy 30 Day Returns</p>
+          <p>Back Returns in 7 Days</p>
+        </div>
+      </div>
+
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-solid fa-hand-holding-dollar"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>money back guarantee</p>
+          <p>guarantee with in 30-Days</p>
+        </div>
+      </div>
+
+      <div class="div-policy">
+        <div class="icons">
+          <i class="fa-solid fa-headset"></i>
+        </div>
+        <div class="div-policy-text">
+          <p>Easy Online Support</p>
+          <p>24/7 Any time support</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start our Product section -->
+
+  <section class="section-products">
+    <div class="container">
+      <div class="section-common-heading">Checkout Patel store</div>
+    </div>
+    <section class="conatiner">
+      <div id="productContainer">
+
+      </div>
+    </section>
+  </section>
+
+  <template id="productTemplate">
+    <div class="cards" id="cardValue">
+      <article class="information [card]">
+        <span class="category"></span>
+
+        <div class="imageContainer">
+          <img class="productImage" src="" alt="">
+        </div>
+
+        <h2 class="productName"></h2>
+        <div class="productRating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+
+        <p class="productDescription"></p>
+
+        <div class="productPriceElement">
+          <p class="productPrice"></p>
+          <p class="productActualPrice"></p>
+        </div>
+
+        <div class="productStockElement">
+          <p class="productProperty">Total Stocks Available:</p>
+          <p class="productStock"></p>
+        </div>
+
+        <div class="productQuantityElement">
+          <p class="productProperty">Quantity(Pieces)</p>
+          <div class="stockElement">
+            <button class="cartIncrement">+</button>
+            <p class="productQuantity">1</p>
+            <button class="cartDecrement">-</button>
+          </div>
+        </div>
+
+        <button class="add-to-cart-button">
+          <i class="fa-solid fa-cart-shopping"></i>Add to Cart
+        </button>
+      </article>
+    </div>
+  </template>
+
+    <!-- Footer section  -->
+  <footer class="section-footer">
+    <div class="footer-container container">
+      <div class="content_1">
+        <a href="index.html" class="logo-link">
+          <div class="brand-logo">
+            <span class="logo-main">PATEL</span>
+            <span class="logo-sub">STORE</span>
+          </div>
+        </a>
+        <p>
+          Welcome to Patel EcomStore, your ultimate destination for cutting-edge gadgets!
+        </p>
+        <img src="./src/credit_card.png" alt="cards">
+      </div>
+      <div class="content_2">
+        <h4>SHOPPING</h4>
+        <a href="#">Computer Store</a>
+        <a href="#">Laptop Store</a>
+        <a href="#">Accessories</a>
+        <a href="#">Sales & Discount</a>
+      </div>
+      <div class="content_3">
+        <h4>Experience</h4>
+        <a href="./contact.html">Contact Us</a>
+        <a href="" target="_blank">Payment Method</a>
+        <a href="" target="_blank">Delivery</a>
+        <a href="" target="_blank">Return and Exchange</a>
+      </div>
+      <div class="content_4">
+        <h4>NEWSLETTER</h4>
+        <p>Be the first to know about new <br> arrivals, sales & promos!</p>
+        <div class="f-mail">
+          <input type="mail" placeholder="Your Email">
+          <i class="bx bx-envelope"></i>
+        </div>
+      </div>
+    </div>
+    <div class="f-design">
+      <div class="f-design-txt">
+        <p>Design and Code by Ajay Patel</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image" href="./src/ps.png" />
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patel_Store</title>
+</head>
+
+<body>
+    <header class="section-navbar">
+        <section class="top_txt">
+            <div class="head container">
+                <div class="head_txt">
+                    <p>Free shipping, 30-day return or refund gurantee.</p>
+                </div>
+                <div class="sign_in_up">
+                    <a href="#">SIGN IN</a>
+                    <a href="#">SIGN UP</a>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <div class="navbar_brand">
+                <a href="index.html" class="logo-link">
+                    <div class="brand-logo">
+                        <span class="logo-main">PATEL</span>
+                        <span class="logo-sub">STORE</span>
+                    </div>
+                </a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="nav-item">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="products.html" class="nav-link">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+                            <i class="fa-solid fa-cart-shopping"></i> 0
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-wrapper">
+
+        <!-- HERO / INTRO -->
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <p class="contact-badge">We’re here to help</p>
+                <h1>Contact Our Support Team</h1>
+                <p class="contact-hero-text">
+                    Whether you have questions about your order, product recommendations,
+                    or partnership opportunities, our team is ready to assist you.
+                </p>
+                <div class="contact-hero-tags">
+                    <span>24/7 Email Support</span>
+                    <span>Response within 24 hours</span>
+                    <span>Trusted by tech enthusiasts</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAIN CONTACT CONTENT -->
+        <main class="contact-main">
+
+            <!-- LEFT: DETAILS -->
+            <section class="contact-info-panel">
+                <h2>Get in Touch</h2>
+                <p class="contact-info-text">
+                    Reach out to us through any of the options below, or fill in the form and we’ll get back to you
+                    shortly.
+                </p>
+
+                <div class="contact-info-grid">
+                    <div class="info-card">
+                        <h3>Customer Support</h3>
+                        <p>For order status, returns, refunds, or general queries.</p>
+                        <p class="info-label">Email</p>
+                        <p class="info-value">support@patelecomstore.com</p>
+                        <p class="info-label">Phone</p>
+                        <p class="info-value">+91 98765 43210</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Business & Partnerships</h3>
+                        <p>For collaboration, B2B deals, or vendor onboarding.</p>
+                        <p class="info-label">Email</p>
+                        <p class="info-value">business@patelecomstore.com</p>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>Technical Support</h3>
+                        <p>Facing issues on the website or with your account?</p>
+                        <p class="info-label">Email</p>
+                        <p class="info-value">tech@patelecomstore.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-hours-location">
+                    <div class="hours">
+                        <h3>Business Hours</h3>
+                        <ul>
+                            <li><span>Monday – Friday</span><span>9:00 AM – 7:00 PM</span></li>
+                            <li><span>Saturday</span><span>10:00 AM – 5:00 PM</span></li>
+                            <li><span>Sunday</span><span>Closed</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="location">
+                        <h3>Head Office</h3>
+                        <p>Patel EcomStore</p>
+                        <p>123 Tech Street, Near IT Park</p>
+                        <p>Ahmedabad, Gujarat, India</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RIGHT: FORM -->
+            <section class="contact-form-panel">
+                <h2>Send Us a Message</h2>
+                <p class="contact-form-text">
+                    Fill in the details below and we’ll connect with you as soon as possible.
+                </p>
+
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="Enter your full name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="Enter your email" required />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" placeholder="+91 98765 43210" />
+                        </div>
+                        <div class="form-group">
+                            <label for="orderId">Order ID (optional)</label>
+                            <input type="text" id="orderId" placeholder="E.g. #PECOM12345" />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="topic">Topic</label>
+                            <select id="topic" required>
+                                <option value="">Select an option</option>
+                                <option value="order">Order Related</option>
+                                <option value="product">Product Inquiry</option>
+                                <option value="technical">Technical Issue</option>
+                                <option value="business">Business / Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="priority">Priority</label>
+                            <select id="priority">
+                                <option value="normal">Normal</option>
+                                <option value="high">High</option>
+                                <option value="urgent">Urgent</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="6" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <div class="form-footer">
+                        <label class="checkbox-wrapper">
+                            <input type="checkbox" />
+                            <span>Send me a copy of this message via email</span>
+                        </label>
+                        <button type="submit" class="btn-contact">Submit Message</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+
+        <!-- SUPPORT OPTIONS SECTION -->
+        <section class="support-options">
+            <div class="support-container">
+                <h2>Other Ways to Get Support</h2>
+                <p class="support-text">
+                    Choose the option that best fits your needs. Our team is always ready to help.
+                </p>
+                <div class="support-grid">
+                    <div class="support-card">
+                        <h3>Live Chat</h3>
+                        <p>Chat with our support team directly from your account dashboard.</p>
+                        <p class="support-badge">Coming Soon</p>
+                    </div>
+                    <div class="support-card">
+                        <h3>Help Center</h3>
+                        <p>Browse FAQs, tutorials, and guides to quickly find answers.</p>
+                        <a href="#" class="support-link">Visit Help Center</a>
+                    </div>
+                    <div class="support-card">
+                        <h3>WhatsApp Support</h3>
+                        <p>Message us on WhatsApp for quick support during business hours.</p>
+                        <p class="support-value">+91 98765 43210</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section class="faq-section">
+            <div class="faq-container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How long does it take to get a response?</h3>
+                        <p>
+                            Most queries are responded to within 24 hours. High-priority order issues
+                            are usually handled faster.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I cancel or modify my order?</h3>
+                        <p>
+                            Yes, if your order has not yet been shipped. Please include your Order ID
+                            and details in your contact message.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer international shipping?</h3>
+                        <p>
+                            Currently, we ship across India. International shipping options are being planned.
+                        </p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What should I do if my product arrives damaged?</h3>
+                        <p>
+                            Please contact us immediately with photos of the damaged product.
+                            We’ll assist with a replacement or refund as per our policy.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LOCATION / MAP SECTION (STATIC BOX DESIGN) -->
+        <section class="location-section">
+            <div class="location-container">
+                <div class="map-box">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.929681378629!2d72.57136277467223!3d23.02049791669235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f6cd1ce311%3A0x19aef0adf7eecca0!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1700000000000!"
+                        width="100%" height="250" style="border:0; border-radius: 10px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+
+                <div class="location-details">
+                    <h2>Visit Our Store</h2>
+                    <p>
+                        Prefer talking in person? Visit our experience store and try out the latest gadgets
+                        before you buy.
+                    </p>
+                    <ul>
+                        <li><span>Address:</span> 123 Tech Street, Ahmedabad, Gujarat, India</li>
+                        <li><span>Landmark:</span> Near City IT Park</li>
+                        <li><span>Parking:</span> Free parking available</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="section-footer">
+        <div class="footer-container container">
+            <div class="content_1">
+                <a href="index.html" class="logo-link">
+                    <div class="brand-logo">
+                        <span class="logo-main">PATEL</span>
+                        <span class="logo-sub">STORE</span>
+                    </div>
+                </a>
+                <p>
+                    Welcome to Patel EcomStore, your ultimate destination for cutting-edge gadgets!
+                </p>
+                <img src="./src/credit_card.png" alt="cards">
+            </div>
+            <div class="content_2">
+                <h4>SHOPPING</h4>
+                <a href="#">Computer Store</a>
+                <a href="#">Laptop Store</a>
+                <a href="#">Accessories</a>
+                <a href="#">Sales & Discount</a>
+            </div>
+            <div class="content_3">
+                <h4>Experience</h4>
+                <a href="./contact.html">Contact Us</a>
+                <a href="" target="_blank">Payment Method</a>
+                <a href="" target="_blank">Delivery</a>
+                <a href="" target="_blank">Return and Exchange</a>
+            </div>
+            <div class="content_4">
+                <h4>NEWSLETTER</h4>
+                <p>Be the first to know about new <br> arrivals, sales & promos!</p>
+                <div class="f-mail">
+                    <input type="mail" placeholder="Your Email">
+                    <i class="bx bx-envelope"></i>
+                </div>
+            </div>
+        </div>
+        <div class="f-design">
+            <div class="f-design-txt">
+                <p>Design and Code by Ajay Patel</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
