@@ -487,10 +487,9 @@ ul {
 /* Product Card Styling */
 .cards {
   perspective: 1000px;
-  /* ye ham tab change kare gai jab host karne mai bad bhi product card bada dikhe gaa */
-  max-width: 120rem;
-  margin: 0 auto;             
-  padding: 0 1.4rem;
+  /* max-width: 120rem;
+  margin: 0 auto;             ye ham tab change kare gai jab host karne mai bad bhi product card bada dikhe gaa
+  padding: 0 1.4rem; */
   /* For 3D flip effect */
 }
 
