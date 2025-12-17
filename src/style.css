@@ -664,7 +664,6 @@ ul {
   box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
 }
 
-*/
 /*
 ========================================
 06.5. CART PAGE STYLES (addToCart.html)
@@ -675,7 +674,7 @@ Location: This section contains all styles for the shopping cart page
 
 /* Main Cart Section Container */
 .addToCartElement {
-  padding: 4rem 0 9.6rem 0;
+  padding: 4rem 0 3.5rem 0;
   background-color: #f5f5f5;
   min-height: 60vh;
 }
@@ -879,7 +878,7 @@ Location: This section contains all styles for the shopping cart page
   height: fit-content;
   margin-left: auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.1rem;
   margin-right: 2rem;
 }
 

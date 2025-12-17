@@ -4,7 +4,7 @@ import { incrementDecrement } from "./incrementDecrement.js";
 import { removeProdFromCart } from "./removeProdFromCart.js";
 
 
-import products from "./src/api/products.json";
+import products from "./api/products.json";
 import { updateCartProductTotal } from "./updateCartProductTotal.js";
 
 let cartProducts = getCartProductFromLS();
